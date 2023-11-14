@@ -1,5 +1,6 @@
 
 import './HomePage.css';
+import apiNetwork from '../../components/images/apinetwork.jpg';
 
 function HomePage() {
   return (
@@ -9,12 +10,10 @@ function HomePage() {
       </header>
 
       <section className="skills">
-    <h2>Skills</h2>
-
     <h3>Programming Languages</h3>
     <ul>
-        <li>JavaScript</li>
-        <li>Python</li>
+        <li><i class="fa fa-code"></i> JavaScript</li>
+        <li><i class="fa fa-python"></i>Python</li>
         <li>TypeScript</li>
         <li>C (Programming Language)</li>
     </ul>

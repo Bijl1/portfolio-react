@@ -7,10 +7,16 @@
   }
 
   .header {
+    background-image: url('../../components/images/apinetwork.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    color: white;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
   }
   
   .header h1 {
@@ -34,11 +40,21 @@
     padding: 0;
   }
   
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
   .skills li {
     background-color: #f8f9fa;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .skills li:hover {
+    transform: translateY(-5px);
   }
   
   .project {
@@ -47,6 +63,8 @@
     margin-bottom: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
   }
   
   .project:hover {
@@ -69,5 +87,11 @@
     .header h1 {
       font-size: 2em;
     }
-  }
+
+    .skills {
+        grid-template-columns: 1fr; /* Adjust grid layout for smaller screens */
+      }
+    }
+  
+  
   
