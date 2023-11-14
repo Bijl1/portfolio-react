@@ -1,0 +1,73 @@
+/* HomePage.css */
+
+.home-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills, .projects, .contact-info {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .skills h2, .projects h2, .contact-info h2 {
+    font-size: 1.8em;
+    color: #000000;
+  }
+  
+  .skills ul, .projects div {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .project {
+    padding: 15px;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .project:hover {
+    background-color: #e9ecef;
+  }
+  
+  .contact-info a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .header h1 {
+      font-size: 2em;
+    }
+  }
+  
