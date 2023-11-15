@@ -12,31 +12,28 @@ function HomePage() {
       <section className="skills">
     <h3>Programming Languages</h3>
     <ul>
-        <li><i class="fa fa-code"></i> JavaScript</li>
-        <li><i class="fa fa-python"></i>Python</li>
+        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+        <li><i class="fa-brands fa-python"></i> Python</li>
         <li>TypeScript</li>
         <li>C (Programming Language)</li>
     </ul>
 
     <h3>Front-End Development</h3>
     <ul>
-        <li>React</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
+        <li><i class="fa-brands fa-react"></i> React</li>
+        <li><i class="fa-brands fa-html5"></i> HTML5</li>
+        <li><i class="fa-brands fa-css3"></i> CSS3</li>
         <li>Hooks</li>
-        <li>Vue.js</li>
-        <li>Angular</li>
-        <li>Bootstrap</li>
-        <li>SASS/SCSS</li>
-        <li>Tailwind CSS</li>
-        <li>Web Design</li>
+        <li><i class="fa-brands fa-vuejs"></i>Vue.js</li>
+        <li><i class="fa-brands fa-angular"></i>Angular</li>
+        <li><i class="fa-brands fa-bootstrap"></i>Bootstrap</li>
     </ul>
 
     <h3>Back-End Development</h3>
     <ul>
-        <li>Node.js</li>
+        <li><i class="fa-brands fa-node-js"></i>Node.js</li>
         <li>Express.js</li>
-        <li>Flask</li>
+        <li><i class="fa-solid fa-flask"></i>Flask</li>
         <li>REST APIs</li>
     </ul>
 
@@ -50,30 +47,22 @@ function HomePage() {
     <h3>Development Tools and Frameworks</h3>
     <ul>
         <li>Postman</li>
-        <li>Git</li>
-        <li>GitHub/GitLab</li>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-    </ul>
-
-    <h3>Testing and Optimization</h3>
-    <ul>
-        <li>Jest</li>
-        <li>Mocha</li>
-        <li>Selenium</li>
-        <li>Webpack</li>
+        <li><i class="fa-brands fa-git"></i>Git</li>
+        <li><i class="fa-brands fa-github"></i>GitHub</li>
+        <li><i class="fa-brands fa-gitlab"></i>GitLab</li>
+        <li><i class="fa-brands fa-docker"></i>Docker</li>
     </ul>
 
     <h3>Cloud Services and Deployment</h3>
     <ul>
-        <li>AWS (Amazon Web Services)</li>
+        <li><i class="fa-brands fa-aws"></i>AWS (Amazon Web Services)</li>
         <li>Azure</li>
-        <li>Google Cloud Platform</li>
+        <li><i class="fa-brands fa-google"></i>Google Cloud Platform</li>
     </ul>
 
     <h3>Mobile App Development</h3>
     <ul>
-        <li>React Native</li>
+        <li><i class="fa-brands fa-react"></i>React Native</li>
     </ul>
 
     <h3>UI/UX Design Principles</h3>
@@ -84,26 +73,28 @@ function HomePage() {
 
     <h3>Project Management and Collaboration Tools</h3>
     <ul>
-        <li>JIRA</li>
-        <li>Trello</li>
+        <li><i class="fa-brands fa-jira"></i>JIRA</li>
+        <li><i class="fa-brands fa-trello"></i>Trello</li>
         <li>Asana</li>
     </ul>
 
     <h3>Continuous Integration/Continuous Deployment</h3>
     <ul>
-        <li>Jenkins</li>
+        <li><i class="fa-brands fa-jenkins"></i>Jenkins</li>
+        <li>Render</li>
         <li>Travis CI</li>
-        <li>GitLab CI</li>
+        <li><i class="fa-brands fa-gitlab"></i>GitLab CI</li>
+        <li>Fly.io</li>
     </ul>
 
     <h3>Concepts and Methodologies</h3>
     <ul>
         <li>Algorithms</li>
-        <li>Computer Science</li>
-        <li>Web Applications</li>
-        <li>Front-End Developer</li>
-        <li>Back-End Developer</li>
-        <li>Full-Stack Developer</li>
+        <li><i class="fa-solid fa-robot"></i> Computer Science</li>
+        <li><i class="fa-brands fa-app-store-ios"></i> Web Applications</li>
+        <li><i class="fa-solid fa-code"></i> Front-End Developer</li>
+        <li><i class="fa-solid fa-code"></i> Back-End Developer</li>
+        <li><i class="fa-solid fa-code"></i> Full-Stack Developer</li>
     </ul>
 
 
@@ -116,7 +107,7 @@ function HomePage() {
           <h3>Project Name</h3>
           <p>Kayak Game</p>
           <p>Food recipes</p>
-          <p>Food recipes</p>
+          <p>Fishing App</p>
         </div>
       </section>
 
