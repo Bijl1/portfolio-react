@@ -10,6 +10,7 @@ function HomePage() {
       </header>
 
       <section className="skills">
+        <div className="skill-category">
     <h3>Programming Languages</h3>
     <ul>
         <li><i class="fa-brands fa-js"></i> JavaScript</li>
@@ -17,7 +18,9 @@ function HomePage() {
         <li>TypeScript</li>
         <li>C (Programming Language)</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>Front-End Development</h3>
     <ul>
         <li><i class="fa-brands fa-react"></i> React</li>
@@ -28,7 +31,9 @@ function HomePage() {
         <li><i class="fa-brands fa-angular"></i>Angular</li>
         <li><i class="fa-brands fa-bootstrap"></i>Bootstrap</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>Back-End Development</h3>
     <ul>
         <li><i class="fa-brands fa-node-js"></i>Node.js</li>
@@ -36,14 +41,18 @@ function HomePage() {
         <li><i class="fa-solid fa-flask"></i>Flask</li>
         <li>REST APIs</li>
     </ul>
+    </div>
 
+    <div className="skill-category">  
     <h3>Database Technologies</h3>
     <ul>
         <li>SQL</li>
         <li>MongoDB</li>
         <li>Mongoose</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>Development Tools and Frameworks</h3>
     <ul>
         <li>Postman</li>
@@ -52,32 +61,42 @@ function HomePage() {
         <li><i class="fa-brands fa-gitlab"></i>GitLab</li>
         <li><i class="fa-brands fa-docker"></i>Docker</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>Cloud Services and Deployment</h3>
     <ul>
         <li><i class="fa-brands fa-aws"></i>AWS (Amazon Web Services)</li>
         <li>Azure</li>
         <li><i class="fa-brands fa-google"></i>Google Cloud Platform</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>Mobile App Development</h3>
     <ul>
         <li><i class="fa-brands fa-react"></i>React Native</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>UI/UX Design Principles</h3>
     <ul>
         <li>Understanding of UX Design</li>
         <li>Familiarity with Adobe XD, Sketch, Figma</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>Project Management and Collaboration Tools</h3>
     <ul>
         <li><i class="fa-brands fa-jira"></i>JIRA</li>
         <li><i class="fa-brands fa-trello"></i>Trello</li>
         <li>Asana</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>Continuous Integration/Continuous Deployment</h3>
     <ul>
         <li><i class="fa-brands fa-jenkins"></i>Jenkins</li>
@@ -86,7 +105,9 @@ function HomePage() {
         <li><i class="fa-brands fa-gitlab"></i>GitLab CI</li>
         <li>Fly.io</li>
     </ul>
+    </div>
 
+    <div className="skill-category">
     <h3>Concepts and Methodologies</h3>
     <ul>
         <li>Algorithms</li>
@@ -96,6 +117,7 @@ function HomePage() {
         <li><i class="fa-solid fa-code"></i> Back-End Developer</li>
         <li><i class="fa-solid fa-code"></i> Full-Stack Developer</li>
     </ul>
+    </div>
 
 
 </section>
@@ -104,7 +126,6 @@ function HomePage() {
       <section className="projects">
         <h2>Projects</h2>
         <div className="project">
-          <h3>Project Name</h3>
           <p>Kayak Game</p>
           <p>Food recipes</p>
           <p>Fishing App</p>
