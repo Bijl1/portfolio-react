@@ -82,7 +82,7 @@ function HomePage() {
     <div className="skill-category">
     <h3>UI/UX Design Principles</h3>
     <ul>
-        <li>Understanding of UX Design</li>
+        <li>Understanding of UX Design</li> 
         <li>Familiarity with Adobe XD, Sketch, Figma</li>
     </ul>
     </div>
