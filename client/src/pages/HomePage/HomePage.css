@@ -31,15 +31,14 @@
     gap: 20px;
     padding: 20px;
 }
-Z   
+
 .skill-category {
     background: #fff;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     background-image: url('../../components/images/apinetwork.jpg');
-
-}
+  }
 
 .skill-category h3 {
     color: #000000;
@@ -74,7 +73,6 @@ Z
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-
   }
   
   .project:hover {
