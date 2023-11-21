@@ -21,7 +21,7 @@ function HomePage() {
     </div> 
 
     <div className="skill-category">
-    <h3>Front-End Development</h3>
+    <h3>Front-End Development</h3> 
     <ul>
         <li><i class="fa-brands fa-react"></i> React</li>
         <li><i class="fa-brands fa-html5"></i> HTML5</li>
