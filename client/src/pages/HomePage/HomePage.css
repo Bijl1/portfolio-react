@@ -73,6 +73,9 @@
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
   }
   
   .project:hover {
@@ -84,6 +87,7 @@
     margin-right: 15px;
     color: #007bff;
     text-decoration: none;
+    padding-bottom: 15px;
   }
   
   .contact-info a:hover {

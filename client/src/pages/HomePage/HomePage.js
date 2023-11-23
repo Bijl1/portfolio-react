@@ -120,13 +120,14 @@ function HomePage() {
     </div>
 
 
-</section>
+</section>  
 
 
       <section className="projects">
         <h2>Projects</h2>
         <div className="project">
-          <p>Kayak Game</p>
+          <h4>Kayak Game</h4>
+          <p>A dyanmic, interactive game where players navigate a kayak through various challenges.</p>
           <p>Food recipes</p>
           <p>Fishing App</p>
         </div>
