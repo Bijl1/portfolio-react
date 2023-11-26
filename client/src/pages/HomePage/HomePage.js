@@ -1,6 +1,7 @@
 
 import './HomePage.css';
 import apiNetwork from '../../components/images/apinetwork.jpg';
+import kayakScreen from '../../components/images/kayakscreenshot.png';
 
 function HomePage() {
   return (
@@ -124,13 +125,20 @@ function HomePage() {
 
 
       <section className="projects">
-        <h2>Projects</h2>
         <div className="project">
           <h4>Kayak Game</h4>
+          <img src={kayakScreen} alt="Kayak Game Screenshot" className="project-image"/>
           <p>A dyanmic, interactive game where players navigate a kayak through various challenges.</p>
-          <p>Food recipes</p>
-          <p>Fishing App</p>
-        </div>
+          <a href="https://github.com/Bijl1/kayak-game" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          <br/>
+          <a href="https://bijl1.github.io/kayak-game/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+          <div className="project">
+          <h4>Food recipes</h4>
+          </div>
+          <div className="project">
+          <h4>Fishing App</h4>
+          </div>
       </section>
 
       <footer className="contact-info">
