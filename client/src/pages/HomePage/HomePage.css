@@ -82,11 +82,10 @@
   }
 
   .project-image {
-    width: 100%; /* makes the image responsive, adjusting to the container's width */
-    height: auto; /* maintains the aspect ratio of the image */
-    border-radius: 8px; /* optional: adds rounded corners to the image */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* optional: adds a subtle shadow for depth */
-    margin-top: 15px; /* adds some space between the image and the preceding text */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
   
   .project:hover {

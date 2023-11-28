@@ -126,7 +126,7 @@ function HomePage() {
 
       <section className="projects">
         <div className="project">
-          <h4>Kayak Game</h4>
+          <h5>Kayak Game</h5>
           <img src={kayakScreen} alt="Kayak Game Screenshot" className="project-image"/>
           <p>A dyanmic, interactive game where players navigate a kayak through various challenges.</p>
           <a href="https://github.com/Bijl1/kayak-game" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
@@ -134,10 +134,21 @@ function HomePage() {
           <a href="https://bijl1.github.io/kayak-game/" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
           <div className="project">
-          <h4>Food recipes</h4>
+          <h5>Food recipes</h5>
+          <img src={kayakScreen} alt="Kayak Game Screenshot" className="project-image"/>
+          <p>Cook your way with our app: Customize recipes or create new ones easily.</p>
+          <a href="https://github.com/Bijl1/food-recipes" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          <br/>
+          <a href="link" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
           <div className="project">
-          <h4>Fishing App</h4>
+          <h5>Fishing App</h5>
+          <img src={kayakScreen} alt="Kayak Game Screenshot" className="project-image"/>
+          <p>Master fishing gear choices with our app, catering to anglers at all levels.</p>
+          <a href="https://github.com/Bijl1/fishing-app-client" target="_blank" rel="noopener noreferrer">Client GitHub Repository</a>
+          <a href="https://github.com/Bijl1/fishing-app-server" target="_blank" rel="noopener noreferrer">Server GitHub Repository</a>
+          <br/>
+          <a href="link" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
       </section>
 
