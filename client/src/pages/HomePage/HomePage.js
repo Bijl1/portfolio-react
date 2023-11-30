@@ -174,7 +174,7 @@ function HomePage() {
       </footer>
 
     </div>
-  );
+  ); 
 }
 
 export default HomePage;
