@@ -156,7 +156,7 @@ function HomePage() {
         <h2>Contact Me</h2>
         <a href="mailto:Jonathanabijl@gmail.com">
           <i class="fa fa-envelope"></i> Email
-        </a>
+        </a> 
 
         <a href="https://linkedin.com/in/jonathanbijl" target="_blank">
           <i class="fa-brands fa-linkedin"></i> LinkedIn
