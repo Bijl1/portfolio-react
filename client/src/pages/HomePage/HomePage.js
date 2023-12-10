@@ -2,6 +2,7 @@
 import './HomePage.css';
 import apiNetwork from '../../components/images/apinetwork.jpg';
 import kayakScreen from '../../components/images/kayakscreenshot.png';
+import foodScreen from '../../components/images/foodscreenshot.png';
 
 function HomePage() {
   return (
@@ -135,7 +136,7 @@ function HomePage() {
           </div>
           <div className="project">
           <h5>Food recipes</h5>
-          <img src={kayakScreen} alt="Kayak Game Screenshot" className="project-image"/>
+          <img src={foodScreen} alt="Kayak Game Screenshot" className="project-image"/>
           <p>Cook your way with our app: Customize recipes or create new ones easily.</p>
           <a href="https://github.com/Bijl1/food-recipes" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
           <br/>
@@ -177,4 +178,4 @@ function HomePage() {
   ); 
 }
 
-export default HomePage;  
+export default HomePage;   
