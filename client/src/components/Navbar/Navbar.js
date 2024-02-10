@@ -12,6 +12,14 @@ function Navbar() {
       <Link to="/about">
         <button>About</button>
       </Link>      
+    
+      <Link to="/portfolio">
+        <button>Portfolio</button>
+      </Link>
+
+      <Link to="/contact">
+        <button>Contact</button>
+      </Link>
     </nav>
   );
 }
