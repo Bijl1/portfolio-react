@@ -169,7 +169,7 @@ function HomePage() {
         <a href="https://www.codewars.com/users/J.Bijl" target="_blank">
           <i class="fa-brands fa-codepen"></i> Codewars
         </a>
-        <a href="path_to_your_resume.pdf" download>
+        <a href="https://drive.google.com/file/d/1rhjcNm6fs3ixCGISkczhPErON8ZUTca7/view?usp=drive_link" download>
           <i class="fa fa-download"></i> Download Resume
         </a>
       </footer>
