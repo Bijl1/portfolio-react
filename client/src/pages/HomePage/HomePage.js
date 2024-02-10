@@ -18,7 +18,7 @@ function HomePage() {
         <li><i class="fa-brands fa-js"></i> JavaScript</li>
         <li><i class="fa-brands fa-python"></i> Python</li>
         <li>TypeScript</li>
-        <li>C (Programming Language)</li> 
+        <li>C (Programming Language)</li>  
     </ul>
     </div> 
 
